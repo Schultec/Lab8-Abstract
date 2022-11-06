@@ -4,6 +4,10 @@ import java.io.*;
 import java.util.*;
 import lab8.cscd211comparators.*;
 import lab8.cscd211inheritance.*;
+import lab8.cscd211inheritiance.Accountant;
+import lab8.cscd211inheritiance.Employee;
+import lab8.cscd211inheritiance.Lawyer;
+import lab8.cscd211inheritiance.Programmer;
 
 public class CSCD211Lab8
 {
