@@ -1,7 +1,19 @@
 package lab8.cscd211inheritiance;
 
 public class Lawyer extends Employee {
-    public Lawyer(String s, int i, int i1, int i2) {
+
+    private int stockOptions;
+    public Lawyer(String name, double basePayrate, double additionalPayrate, int stockOptions) {
         super();
+        this.stockOptions = stockOptions;
+    }
+    public int getStockOptions(){
+        return this.stockOptions;
+    }
+    public void report(){
+        System.out.println("I am an lawyer. I get " + this.getSalary + " and i have " + this.getStockOptions() + " shares of stock.")
+    }
+    public String toString(){
+
     }
 }
