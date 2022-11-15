@@ -1,6 +1,6 @@
 package lab8.cscd211inheritiance;
 
-public class Employee {
+public abstract class Employee implements Comparable<Employee>{
     private double BASE; //base pay
     private String name;
     protected double salary; //base + additional
@@ -14,7 +14,7 @@ public class Employee {
         }
         this.name = name;
         this.BASE = basePayrate;
-        this.salary = additionalPayrate + basePayrate;
+        this.salary = additionalPayrate + getBaseSalary();
 
     }
 
@@ -28,20 +28,26 @@ public class Employee {
         return this.name;
     }
     public String getType(){
-
+        return this.getClass().getSimpleName();
     }
-    public abstract void report(){
 
-    }
+    public abstract void report();
     public int compareTo(Employee another){
-
+        if (another == null){
+            throw new IllegalArgumentException("cannot be null");
+        }
+        if (this.getType().compareTo(another.getType()) == 0){
+            return Double.compare(this.salary, another.salary);
+        }
+        return this.getType().compareTo(another.getType());
     }
+
 
     public double getBASE() {
         return BASE;
     }
 
     public String toString(){
-        return this.name
+        return this.name;
     }
 }

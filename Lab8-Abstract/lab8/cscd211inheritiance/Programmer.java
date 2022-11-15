@@ -12,13 +12,13 @@ public class Programmer extends Employee {
     }
     public void report(){
         if (this.getBusPass()){
-            System.out.println("I am a programmer. I get " + this.getSalary() + " and I get a bus pass")
+            System.out.println("I am a programmer. I get " + this.getSalary() + " and I get a bus pass");
         }else{
-            System.out.println("I am a programmer. I get " + this.getSalary() + " and I do not get a bus pass")
+            System.out.println("I am a programmer. I get " + this.getSalary() + " and I do not get a bus pass");
         }
     }
 
     public String toString(){
-
+        return "Programmer: " + super.toString();
     }
 }

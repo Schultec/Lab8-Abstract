@@ -11,8 +11,9 @@ public class Accountant extends Employee {
         return this.parkingStipend;
     }
     public void report(){
-        System.out.println("I am an accountant. I make" + this.getSalary() + " plus a parking stipend of " + this.getParkingStipend());
+        System.out.println("I am an accountant. I make " + this.getSalary() + " plus a parking stipend of " + this.getParkingStipend());
     }
-    public String toString{
+    public String toString(){
+        return "Accountant: " + super.toString();
     }
 }

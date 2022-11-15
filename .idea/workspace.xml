@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6e9226-8aeb-40f8-9a37-6908fc8a678d" name="Changes" comment="working on files">
+    <list default="true" id="569a9b81-3ad1-4f47-abb7-c8dcadae3f11" name="Changes" comment="working on files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211comparators/NameComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211comparators/NameComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211comparators/SalaryComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211comparators/SalaryComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Accountant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Lawyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Lawyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8-Abstract/lab8/cscd211inheritiance/Programmer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667757668515</updated>
       <workItem from="1667757669854" duration="7385000" />
+      <workItem from="1668476085064" duration="4034000" />
     </task>
     <task id="LOCAL-00001" summary="untracked">
       <created>1667758548701</created>
@@ -66,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667797942289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working on files">
+      <created>1668476127389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668476127389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
